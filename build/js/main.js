@@ -28,6 +28,19 @@ band.unshift('Alexander');
 let myTuple = ['Penn', 23, true];
 let mixed = ['Jugi', 20, false];
 mixed = myTuple;
+//Objects
+const exampleObj = {
+    prop1: 'Mike',
+    prop2: 23
+};
+exampleObj.prop1 = 'Brozeen';
+let evh = {
+    name: 'Eddie',
+    active: false,
+    albums: [1997, 1999, 'WonderFul']
+};
 console.log(stringArr);
 console.log(guitars);
 console.log(band);
+console.log(mixed);
+console.log(evh);
