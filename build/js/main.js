@@ -39,8 +39,20 @@ let evh = {
     active: false,
     albums: [1997, 1999, 'WonderFul']
 };
+let jp = {
+    name: 'Jimmy',
+    active: true,
+    albums: ['1', '2', 'Awsome']
+};
+const greetGuitarist = (guitarist) => {
+    if (guitarist.name) {
+        return `Hello ${guitarist.name.toUpperCase()}!`;
+    }
+    return `Hello`;
+};
 console.log(stringArr);
 console.log(guitars);
 console.log(band);
 console.log(mixed);
 console.log(evh);
+console.log(greetGuitarist(evh));
